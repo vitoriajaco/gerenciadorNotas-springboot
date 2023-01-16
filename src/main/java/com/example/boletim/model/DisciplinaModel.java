@@ -1,5 +1,6 @@
 package com.example.boletim.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
@@ -9,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Data
+@AllArgsConstructor
 @Entity
 @Builder
 public class DisciplinaModel implements Serializable {
