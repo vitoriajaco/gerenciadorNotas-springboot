@@ -1,10 +1,8 @@
 package com.example.boletim.controller;
 
-import com.example.boletim.DTO.AlunoRequestDTO;
-import com.example.boletim.DTO.AlunoResponseDTO;
 import com.example.boletim.DTO.DisciplinaRequestDTO;
 import com.example.boletim.DTO.DisciplinaResponseDTO;
-import com.example.boletim.service.AlunoService;
+
 import com.example.boletim.service.DisciplinaService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
